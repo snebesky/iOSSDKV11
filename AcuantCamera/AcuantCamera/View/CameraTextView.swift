@@ -10,14 +10,14 @@ import Foundation
 import UIKit
 
 public class CameraTextView: CATextLayer {
-    public var textSizeDefault: CGFloat = 30
+    public var textSizeDefault: CGFloat = 40
     public var textSizeCapture: CGFloat = 50
     public var backgroundColorDefault: CGColor? = UIColor.black.cgColor
     public var backgroundColorCapture: CGColor?
     public var foregroundColorDefault: CGColor? = UIColor.white.cgColor
     public var foregroundColorCapture: CGColor? = UIColor.red.cgColor
 
-    var defaultWidth: CGFloat = 300
+    var defaultWidth: CGFloat = 400
     var defaultHeight: CGFloat = 40
     var captureWidth: CGFloat = 300
     var captureHeight: CGFloat = 300
